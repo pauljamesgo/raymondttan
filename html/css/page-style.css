@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body{font-family: 'PT Sans', sans-serif;}
+body{padding:0;margin:0;background:#333 url(../images/pattern.png) repeat;}
+header{float:left;padding:2em;text-align:center;color:#555;font-size:13px;}
+header h1{display:none;}
+header img{width:150px;height:auto;}
+header h2{font-weight:400;font-size:1.2em;}
+header.click{display:none;}
+main{float:left;}
+main figure{width:900px;height:auto;background:url(../images/blank.gif);}
+main figure img{display:block;}
+main figure.click{width:1100px;height:auto;}
