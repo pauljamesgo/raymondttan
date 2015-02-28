@@ -11,5 +11,5 @@ nav{background:#000;opacity:0.9;box-shadow: 1px 0px 2px #000;font-size:12px;widt
 nav ul{padding:0 1em;}
 nav ul li{display:inline-block;color:#ddd;font-weight:700;padding-right:2em;}
 nav ul li:last-child{padding-right:0;}
-nav ul li a{text-decoration:none;color:#ddd;font-weight:400;transition:1s ease;border-bottom:1px solid #000;}
+nav ul li a{text-decoration:none;color:#ddd;font-weight:400;transition:0.2s ease 0s;border-bottom:1px solid #000;}
 nav ul li a:hover,nav ul li a:focus{color:#fff;border-bottom:1px solid #fff;}

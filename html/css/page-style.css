@@ -1,12 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 body{font-family: 'PT Sans', sans-serif;}
-body{padding:0;margin:0;background:#333 url(../images/pattern.png) repeat;}
-header{float:left;padding:2em;text-align:center;color:#555;font-size:13px;}
+body,figure{padding:0;margin:0;}
+body{background:#333 url(../images/pattern.png) repeat;}
+header{float:left;text-align:center;color:#fff;font-size:13px;width:100%;}
+header p,header h2,header img{opacity:0.4;transition:opacity 0.2s ease 0s;}
 header h1{display:none;}
-header img{width:150px;height:auto;}
+header img{width:150px;height:auto;padding:2em;}
+header img:hover{opacity:1;}
+header a img:hover{opacity:1;}
 header h2{font-weight:400;font-size:1.2em;}
-header.click{display:none;}
-main{float:left;}
-main figure{width:900px;height:auto;background:url(../images/blank.gif);}
-main figure img{display:block;}
-main figure.click{width:1100px;height:auto;}
+header aside p{display:none;}
+main{width:100%;float:left;}
+main figure{padding:16px 20px;}
+main figure img{max-width:100%;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);}
+main figure .blank{max-width:100%;min-width:100%;}
